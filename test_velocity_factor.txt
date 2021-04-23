@@ -1,0 +1,9 @@
+Full calibration must be completed
+
+Will use Phase Angle on port1 trace to figure out the frequency range to get Peak to Peak.
+
+Use over a 100MHz wide range to start, and then narrow if needed.
+
+300/frequency=ELECTRICAL length in Meters.
+
+Physical length in Meters / Electrical Length = velocity factor.

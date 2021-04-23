@@ -1,0 +1,12 @@
+Used to measure the lenght of an unknown piece of Coax, or where there is damage in a longer pice of coax.
+
+Set only trace0 active
+trace0 P0 > Format > more > linear
+Transform > Low Pass Impulse
+Turn Transform on
+Set Velocity Factor (see velocity_factor.txt) as whole number (.80 velocity would be entered 80)
+Start frequency = 50kHz
+Stop Frequency = (5850/<max distance in Meters>) x VF
+  VF is expressed here as .xxx
+  The higher the freq, the shorter distance range but higher resolution
+  The lower the freq, the longer the distance range
